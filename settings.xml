@@ -6,7 +6,7 @@
         <server>
             <id>codeartifact</id>
             <username>aws</username>
-            <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+            <password>eyJ2ZXIiOjEsImlzdSI6MTY0Mzk2NDM0NSwiZW5jIjoiQTEyOEdDTSIsInRhZyI6Im5vdUZQWmpiVzhkWHVjcXNkZDNuaUEiLCJleHAiOjE2NDQwMDc1NDUsImFsZyI6IkExMjhHQ01LVyIsIml2Ijoib2txbllkU2hoVjF0QWtMcyJ9.wDEdToZ4l75JY6gm0TOoVA.We1Gp6Mr5XIeKhoX.oINnJYC-J0r6s9waFCfGG3XCiLWZ4P8P-ThOwoqX5-hfk2mwlnTgaUMAFGNtO-cgfT_46J_72KHjjrO4moyk1JMH1iZyXIt0uP0lV_PgKgQaCcNIsPmAEh8unpB3QdnCiGuNsH0j79cUS4GnyAdvbmqESEWAkq0CXPCijVxEuFp3rDxqunhv-N_Uov74tDCVcvhSxcBWe_PJl2MafcDolaP3Ak4R0iPRVzskG4ZVnBkwSGmjVbmyI7MebTl7vWuQrevo3WSVYLSui-hEbbwKoXO7sQfQuCfGJPnn64AY64Y4W69u-FqsfnnxmexmQPfjKdHnG2t69lQVHgr62-WIFEIRJOuU72ZI5djECwXqe1T7ZxTBX8YUtRQWrjCix_NKfZsb0B_KJ43O7gdg28Z1LDKXia61EF5fMtZzlCCYGpGnw5JXT3zRkxLN0ISwCqyvEMPK1P62BRPdC9LbhfH-kHogLY9lAq_8kxuocZ9HQk9Tfm1uoDsqVj_DPnsfw6STVVVgTEbyRji9k2ULBLr2Jzmpo5S-_rfx30NhRNPa2TME8gICs6Ofp8aD-DinAH8u1Nqs5umgf8fC_Yt0mllxtUZYuzJSrWZaPw2RDykF_vj5G-Mn2HJRTHZMw65K7ClEx3ZC3OKI0Ol_B3rLf8YvkOr1O4IiMsIbq-VcBNycJ3Qrv4tZXxT4H4E5Olq7cLK2JYW345CfGuENr5jGkw1YkXdIc4mI78oNvWtncVtSR8Z3gCQ4-RxeBMVUV8v9Yx6SLFwpowKrfusnpswi9QW5B937YESmL64n6_rUnOPZ0V-XKt5AviSwX8HPz9uiq2MML8zI9LugkbYuBcvRAwR4OL7MogGjakXvS0Jtoke5DvQkSjQDPbyLX5FqnuVHJ-e9vXKTeXXPTEp5A2SLJXYTNKpvjdwze6QCJVM.6haiKi0c67M6B7wtzVVu6g</password>
         </server>
     </servers>
 <profiles>
@@ -15,7 +15,7 @@
     <repositories>
       <repository>
         <id>codeartifact</id>
-    <url>https://domain-accountid.d.codeartifact.region.amazonaws.com/maven/maven-central-store/</url>
+    <url>https://visualpath-159016162158.d.codeartifact.ap-south-1.amazonaws.com/maven/vprofile-maven-repo/</url>
       </repository>
     </repositories>
   </profile>
@@ -26,8 +26,8 @@
 <mirrors>
   <mirror>
     <id>codeartifact</id>
-    <name>domainname--maven-central-store</name>
-    <url>https://domain-accountdid.d.codeartifact.region.amazonaws.com/maven/maven-central-store/</url>
+    <name>visualpath-vprofile-maven-repo</name>
+    <url>https://visualpath-159016162158.d.codeartifact.ap-south-1.amazonaws.com/maven/vprofile-maven-repo/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
